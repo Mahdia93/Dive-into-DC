@@ -15,7 +15,7 @@
 <body>
 <!--header -->
 <nav>
-    <div class="nav-wrapper">
+    <div class="nav-wrapper" style="border-bottom: 5px solid #424242;">
       <div style="margin-left: 80px;"><a href="#" class="brand-logo">Dive Into DC</a></div>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <div style="margin-right: 50px; margin-top: 10px; font-size: 20px;"><li>“Plan Less, Explore More”</li></div>
@@ -36,12 +36,12 @@
       <div class="col s12">
       
   <!-- <table style="width:960px"> -->
-
+<form action="" class="form" method="post">
   <div class="holder">
   <tr>
     <td>
       <hr>
-        <p class="question">How many day you will be in DC?</p>
+        <p class="question">How many day you will be in DC?</p><br>
 
         <ul>
 
@@ -56,7 +56,7 @@
      </div></label>
           
           <input name="days" type="radio" value="5" id="fiveDay"/> <label for="fiveDay"><div class="work">
-      <img src="images/dc2.gif" alt="5 days">
+      <img src="images/dc.gif" alt="5 days">
       <h3>5 days</h3>
      </div></label>
 </ul>
@@ -70,11 +70,11 @@
     <tr>
     <td>
           <hr>
-        <p class="question">How many people are you going with?</p>
+        <p class="question">How many people are you going with?</p><br>
 
         <ul>
           <input class="with-gap" name="people" type="radio" value="self" id="self"/> <label for="self"><div class="work">
-      <img src="https://media.giphy.com/media/GR9Pw1sZa2XaU/giphy.gif" alt="myself">
+      <img src="images/alonegirl.gif" alt="myself">
       <h3>Myself</h3>
      </div></label>
       
@@ -99,21 +99,21 @@
   <tr>
     <td>
       <hr>
-      <p class="question">How action packed do you want your day to be?</p>         
+      <p class="question">How action packed do you want your day to be?</p><br>        
       <ul>
           <input class="with-gap" name="action" type="radio" value="easyDay" id="easyDay"/> <label for="easyDay"><div class="work">
-      <img src="images/food2.gif" alt="easy going">
+      <img src="images/easy.gif" alt="easy going">
       <h3>Easy Going</h3>
      </div></label>
        
           <input class="with-gap" name="action" type="radio" value="topDay" id="topDay"/> <label for="topDay"><div class="work">
-      <img src="images/art.gif" alt="packed itinerary">
-      <h3>Packed Itinerary</h3>
+      <img src="images/busy.gif" alt="packed itinerary">
+      <h3>Busy Itinerary</h3>
      </div></label>
           
 
           <input class="with-gap" name="action" type="radio" value="busy" id="busyDay"/> <label for="busyDay"><div class="work">
-      <img src="images/food1.gif" alt="top attractions">
+      <img src="images/top.gif" alt="top attractions">
       <h3>Top Attractions</h3>
      </div></label>
           
@@ -124,6 +124,7 @@
   
   </tr>
   </div>
+  </form>
 
   <!--</table> -->
 
@@ -170,7 +171,7 @@
 
 <!-- Footer -->
   <center>
-    <div style="height: 60px; background: #960606; border-top: 5px solid #424242; padding: 20px; margin-top: 20px; font-size: 16px;"><p> &copy; Team of Mahdia - Andrea - Khiem</p></div>
+    <div style="height: 60px; background: #960606; border-top: 5px solid #424242; padding: 20px; margin-top: 20px; font-size: 16px; color: white"><p> &copy; Team of Mahdia - Andrea - Khiem</p></div>
   </center>
 
 <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
@@ -191,7 +192,7 @@
 });
 </script>
 <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAde-XEwDer3UAxRX_X4IZTRERIecXKPZI&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAde-XEwDer3UAxRX_X4IZTRERIecXKPZI&libraries=places&callback=initMap">
     </script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
