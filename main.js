@@ -1,4 +1,4 @@
- //var for people
+//var for people
 var selfRadio = $('#self');
 var coupleRadio = $('#couple');
 var familyRadio = $('#family');
