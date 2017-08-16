@@ -479,6 +479,7 @@ else if(familyRadio.prop('checked') && oneday.prop('checked') && easyday.prop('c
 });
 resetForm();
 }//init map
+
 function resetForm(){
 
     $(".form input[type=radio]").each(function () {
